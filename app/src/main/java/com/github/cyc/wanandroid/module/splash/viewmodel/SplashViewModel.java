@@ -1,6 +1,6 @@
 package com.github.cyc.wanandroid.module.splash.viewmodel;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.github.cyc.wanandroid.app.Constant;
 import com.github.cyc.wanandroid.base.viewmodel.BaseViewModel;

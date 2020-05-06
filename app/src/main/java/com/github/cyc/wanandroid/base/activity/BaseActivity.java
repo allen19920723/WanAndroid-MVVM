@@ -1,12 +1,12 @@
 package com.github.cyc.wanandroid.base.activity;
 
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
-import android.databinding.Observable;
-import android.databinding.ViewDataBinding;
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.Observable;
+import androidx.databinding.ViewDataBinding;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.cyc.wanandroid.R;
 import com.github.cyc.wanandroid.base.viewmodel.BaseViewModel;

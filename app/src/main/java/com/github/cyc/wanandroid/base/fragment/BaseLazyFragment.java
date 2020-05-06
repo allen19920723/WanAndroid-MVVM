@@ -1,9 +1,9 @@
 package com.github.cyc.wanandroid.base.fragment;
 
-import android.databinding.ViewDataBinding;
+import androidx.databinding.ViewDataBinding;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 
 import com.github.cyc.wanandroid.base.viewmodel.BaseViewModel;

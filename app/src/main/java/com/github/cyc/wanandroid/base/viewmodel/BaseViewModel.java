@@ -1,11 +1,11 @@
 package com.github.cyc.wanandroid.base.viewmodel;
 
-import android.arch.lifecycle.DefaultLifecycleObserver;
-import android.arch.lifecycle.LifecycleOwner;
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
-import android.databinding.ObservableField;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.DefaultLifecycleObserver;
+import androidx.lifecycle.LifecycleOwner;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
+import androidx.databinding.ObservableField;
+import androidx.annotation.NonNull;
 
 import com.github.cyc.wanandroid.BR;
 import com.github.cyc.wanandroid.enums.LoadState;

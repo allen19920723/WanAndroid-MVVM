@@ -1,7 +1,7 @@
 package com.github.cyc.wanandroid.http.base;
 
-import android.databinding.ObservableField;
-import android.support.annotation.Nullable;
+import androidx.databinding.ObservableField;
+import androidx.annotation.Nullable;
 
 import com.github.cyc.wanandroid.R;
 import com.github.cyc.wanandroid.enums.LoadState;

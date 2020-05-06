@@ -11,14 +11,14 @@
 			type="com.github.cyc.wanandroid.module.main.viewmodel.MainViewModel"/>
 	</data>
 
-	<android.support.v4.widget.DrawerLayout
+	<androidx.drawerlayout.widget.DrawerLayout
 		android:id="@+id/dl_drawer"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		tools:openDrawer="start"
-		tools:context=".module.main.activity.MainActivity">
+		tools:context=".module.main.activity.MainActivity"
+		tools:openDrawer="start">
 
-		<android.support.design.widget.CoordinatorLayout
+		<androidx.coordinatorlayout.widget.CoordinatorLayout
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
 			tools:background="@color/page_background">
@@ -33,39 +33,39 @@
 				android:layout_height="match_parent"
 				app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
-			<android.support.design.widget.BottomNavigationView
+			<com.google.android.material.bottomnavigation.BottomNavigationView
 				android:id="@+id/bnv_bottom_nav"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:layout_gravity="bottom"
 				android:background="@color/page_background"
 				app:elevation="16dp"
-				app:itemTextColor="@color/selector_bottom_nav_item_color"
 				app:itemIconTint="@color/selector_bottom_nav_item_color"
-				app:menu="@menu/menu_bottom_nav"
-				app:layout_behavior="@string/bottom_navigation_behavior"/>
+				app:itemTextColor="@color/selector_bottom_nav_item_color"
+				app:layout_behavior="@string/bottom_navigation_behavior"
+				app:menu="@menu/menu_bottom_nav"/>
 
-			<android.support.design.widget.FloatingActionButton
+			<com.google.android.material.floatingactionbutton.FloatingActionButton
 				android:id="@+id/fab_scroll_to_top"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_marginBottom="64dp"
-				android:layout_marginRight="16dp"
 				android:layout_gravity="bottom|end"
+				android:layout_marginRight="16dp"
+				android:layout_marginBottom="64dp"
 				android:src="@drawable/ic_arrow_upward"
 				app:fabSize="mini"
 				app:layout_behavior="@string/floating_action_button_behavior"/>
-		</android.support.design.widget.CoordinatorLayout>
+		</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-		<android.support.design.widget.NavigationView
+		<com.google.android.material.navigation.NavigationView
 			android:id="@+id/nv_drawer_nav"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
 			android:layout_gravity="start"
 			android:background="@color/page_background"
 			app:headerLayout="@layout/view_nav_header"
-			app:itemTextColor="@color/primary"
 			app:itemIconTint="@color/primary"
+			app:itemTextColor="@color/primary"
 			app:menu="@menu/menu_drawer_nav"/>
-	</android.support.v4.widget.DrawerLayout>
+	</androidx.drawerlayout.widget.DrawerLayout>
 </layout>

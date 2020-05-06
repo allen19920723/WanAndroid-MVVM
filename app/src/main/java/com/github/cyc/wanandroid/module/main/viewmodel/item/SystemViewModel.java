@@ -1,7 +1,7 @@
 package com.github.cyc.wanandroid.module.main.viewmodel.item;
 
-import android.databinding.ObservableField;
-import android.support.annotation.NonNull;
+import androidx.databinding.ObservableField;
+import androidx.annotation.NonNull;
 
 import com.github.cyc.wanandroid.base.viewmodel.BaseItemViewModel;
 import com.github.cyc.wanandroid.http.model.Chapter;

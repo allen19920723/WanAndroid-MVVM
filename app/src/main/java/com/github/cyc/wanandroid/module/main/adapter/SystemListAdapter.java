@@ -1,7 +1,7 @@
 package com.github.cyc.wanandroid.module.main.adapter;
 
-import android.databinding.ObservableList;
-import android.support.annotation.NonNull;
+import androidx.databinding.ObservableList;
+import androidx.annotation.NonNull;
 import android.view.ViewGroup;
 
 import com.github.cyc.wanandroid.base.adapter.BaseAdapter;

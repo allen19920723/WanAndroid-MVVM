@@ -1,6 +1,6 @@
 package com.github.cyc.wanandroid.module.details.viewmodel;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.github.cyc.wanandroid.base.viewmodel.BaseViewModel;
 import com.github.cyc.wanandroid.data.DataManager;

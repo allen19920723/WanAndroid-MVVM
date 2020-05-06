@@ -1,7 +1,6 @@
 package com.github.cyc.wanandroid.app;
 
 import android.app.Application;
-import android.support.annotation.Nullable;
 
 import com.github.cyc.wanandroid.BuildConfig;
 import com.github.cyc.wanandroid.R;
@@ -12,6 +11,9 @@ import com.orhanobut.logger.PrettyFormatStrategy;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
+import androidx.annotation.Nullable;
+import androidx.multidex.MultiDex;
+
 public class WanApplication extends Application {
 
     private static WanApplication sWanApplication;
@@ -21,6 +23,9 @@ public class WanApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        MultiDex.install(this);
+
         if (LeakCanary.isInAnalyzerProcess(this)) {
             // This process is dedicated to LeakCanary for heap analysis.
             // You should not init your app in this process.

@@ -1,7 +1,6 @@
 package com.github.cyc.wanandroid.app;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
 
 import com.bumptech.glide.GlideBuilder;
 import com.bumptech.glide.annotation.GlideModule;
@@ -10,6 +9,8 @@ import com.bumptech.glide.load.engine.cache.InternalCacheDiskCacheFactory;
 import com.bumptech.glide.load.engine.cache.LruResourceCache;
 import com.bumptech.glide.module.AppGlideModule;
 import com.bumptech.glide.request.RequestOptions;
+
+import androidx.annotation.NonNull;
 
 /**
  * Glide模块。配置Glide

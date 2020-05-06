@@ -1,6 +1,6 @@
 package com.github.cyc.wanandroid.module.main.viewholder;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.ViewGroup;
 
 import com.github.cyc.wanandroid.R;

@@ -1,8 +1,8 @@
 package com.github.cyc.wanandroid.base.viewmodel;
 
-import android.databinding.BaseObservable;
-import android.databinding.ObservableField;
-import android.support.annotation.NonNull;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.ObservableField;
+import androidx.annotation.NonNull;
 
 /**
  * Item的ViewModel的基类

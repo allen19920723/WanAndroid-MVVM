@@ -1,8 +1,8 @@
 package com.github.cyc.wanandroid.module.main.fragment;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.github.cyc.wanandroid.R;
 import com.github.cyc.wanandroid.app.Injection;

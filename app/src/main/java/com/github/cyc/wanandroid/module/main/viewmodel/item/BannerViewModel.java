@@ -1,6 +1,6 @@
 package com.github.cyc.wanandroid.module.main.viewmodel.item;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.github.cyc.wanandroid.base.viewmodel.BaseItemViewModel;
 import com.github.cyc.wanandroid.http.model.Banner;

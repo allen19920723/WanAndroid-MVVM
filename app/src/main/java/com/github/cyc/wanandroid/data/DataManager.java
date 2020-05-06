@@ -1,6 +1,6 @@
 package com.github.cyc.wanandroid.data;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.github.cyc.wanandroid.data.source.IHttpDataSource;
 import com.github.cyc.wanandroid.http.model.Article;

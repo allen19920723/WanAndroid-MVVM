@@ -1,8 +1,8 @@
 package com.github.cyc.wanandroid.base.adapter;
 
-import android.databinding.ObservableList;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.databinding.ObservableList;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Adapter的基类
